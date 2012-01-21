@@ -1,0 +1,27 @@
+{
+  "author": "Anders Larsson <anders.larsson.funkis@gmail.com>",
+  "name": "log4js-mongodb",
+  "description": "A log4js log appender to push logs into MongoDB",
+  "version": "0.0.1",
+  "homepage": "https://github.com/anderslarsson/log4js-mongodb",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com//anderslarsson/log4js-mongodb.git"
+  },
+  "main": "index",
+  "scripts": {
+    "test": "mocha --reporter spec ./test/mongodb.test.js"
+  },
+  "engines": {
+    "node": "~0.4.12"
+  },
+  "dependencies": {
+    "log4js" : "0.4.1", 
+    "mongoose" : "2.4.10", 
+    "datejs" : "0.0.2"
+  },
+  "devDependencies": {
+    "should": "*", 
+    "mocha" : "*"
+  }
+}
