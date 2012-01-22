@@ -1,6 +1,6 @@
 # log4js-mongodb
 
-NOTE: Under construction. Not ready!
+NOTE: Under development.
 
 ## installation
 
@@ -9,9 +9,9 @@ npm install log4js-mongodb
 ## usage
 
 	var log4js = require('log4js'), 
-		log4js-mongodb = require('log4js-mongodb')
+		log4jsMongo = require('log4js-mongodb')
 	
-	log4js.addAppender(log4js-mongodb.appender())
+	log4js.addAppender(log4jsMongo.appender())
 	
 	log4js.getLogger().info('Ready to log!')
 
