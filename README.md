@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/anderslarsson/log4js-mongodb.png)](http://travis-ci.org/anderslarsson/log4js-mongodb)
+
 # log4js-mongodb
 
 NOTE: Under development.
