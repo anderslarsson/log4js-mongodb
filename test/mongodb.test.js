@@ -8,7 +8,6 @@ describe('log4js-mongodb tests', function() {
 		mongoAppender = null
 	
 	before(function(done) {
-		log4js.clearAppenders()
 		mongoAppender = log4jsMongo.appender()
 		log4js.addAppender(mongoAppender, 'testing')
 		logger = log4js.getLogger('testing')
